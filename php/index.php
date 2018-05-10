@@ -30,6 +30,8 @@
     </div>
 </nav>
 <div class="content">
+    <p>colton test</p>
+</div>
 
 
 
