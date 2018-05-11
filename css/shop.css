@@ -36,6 +36,10 @@ footer{
     float: none;
     margin: 0 auto 10px;
 }
+.card-img-top{
+    max-height: 280px;
+}
+
 #shopTools{
     margin-left: 50px;
     padding-bottom: 10px;

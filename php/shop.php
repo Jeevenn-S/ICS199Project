@@ -77,7 +77,6 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="passwordSignIn" class="col-form-label">Password</label>
-
                                     <input type="text" class="form-control" id="passwordSignIn">
                                 </div>
                             </form>
@@ -139,6 +138,33 @@
                             <option>XX-Large</option>
                         </select>
                     </div>
+                    <h1 class="display-4">$30</h1>
+                    <a href="#" class="btn btn-primary">Add-to-Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../images/pants.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Pants</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <label for="quantityInput">Quantity</label>
+                    <form name="registrationForm">
+                        <input type="range" name="quantityInput" id="quantityInput" value="1" min="1" max="25" oninput="quantityOutput.value = quantityInput.value">
+                        <output name="quantityOutput" id="quantityOutput">1</output>
+                    </form>
+                    <div class="form-group">
+                        <label for="Select">Item Size</label>
+                        <select id="Select" class="form-control">
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                            <option>X-Large</option>
+                            <option>XX-Large</option>
+                        </select>
+                    </div>
+                    <h1 class="display-4">$70</h1>
                     <a href="#" class="btn btn-primary">Add-to-Cart</a>
                 </div>
             </div>
@@ -164,15 +190,16 @@
                             <option>XX-Large</option>
                         </select>
                     </div>
+                    <h1 class="display-4">$30</h1>
                     <a href="#" class="btn btn-primary">Add-to-Cart</a>
                 </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/blackT.jpeg" alt="Card image cap">
+                <img class="card-img-top" src="../images/pants.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Black T-Shirt</h5>
+                    <h5 class="card-title">Pants</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <label for="quantityInput">Quantity</label>
                     <form name="registrationForm">
@@ -189,31 +216,7 @@
                             <option>XX-Large</option>
                         </select>
                     </div>
-                    <a href="#" class="btn btn-primary">Add-to-Cart</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/blackT.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Black T-Shirt</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <label for="quantityInput">Quantity</label>
-                    <form name="registrationForm">
-                        <input type="range" name="quantityInput" id="quantityInput" value="1" min="1" max="25" oninput="quantityOutput.value = quantityInput.value">
-                        <output name="quantityOutput" id="quantityOutput">1</output>
-                    </form>
-                    <div class="form-group">
-                        <label for="Select">Item Size</label>
-                        <select id="Select" class="form-control">
-                            <option>Small</option>
-                            <option>Medium</option>
-                            <option>Large</option>
-                            <option>X-Large</option>
-                            <option>XX-Large</option>
-                        </select>
-                    </div>
+                    <h1 class="display-4">$70</h1>
                     <a href="#" class="btn btn-primary">Add-to-Cart</a>
                 </div>
             </div>
@@ -241,6 +244,33 @@
                             <option>XX-Large</option>
                         </select>
                     </div>
+                    <h1 class="display-4">$70</h1>
+                    <a href="#" class="btn btn-primary">Add-to-Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../images/blackT.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Black T-Shirt</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <label for="quantityInput">Quantity</label>
+                    <form name="registrationForm">
+                        <input type="range" name="quantityInput" id="quantityInput" value="1" min="1" max="25" oninput="quantityOutput.value = quantityInput.value">
+                        <output name="quantityOutput" id="quantityOutput">1</output>
+                    </form>
+                    <div class="form-group">
+                        <label for="Select">Item Size</label>
+                        <select id="Select" class="form-control">
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                            <option>X-Large</option>
+                            <option>XX-Large</option>
+                        </select>
+                    </div>
+                    <h1 class="display-4">$30</h1>
                     <a href="#" class="btn btn-primary">Add-to-Cart</a>
                 </div>
             </div>
@@ -266,15 +296,16 @@
                             <option>XX-Large</option>
                         </select>
                     </div>
+                    <h1 class="display-4">$30</h1>
                     <a href="#" class="btn btn-primary">Add-to-Cart</a>
                 </div>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/pants.jpg" alt="Card image cap">
+                <img class="card-img-top" src="../images/blackT.jpeg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Pants</h5>
+                    <h5 class="card-title">Black T-Shirt</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <label for="quantityInput">Quantity</label>
                     <form name="registrationForm">
@@ -291,35 +322,10 @@
                             <option>XX-Large</option>
                         </select>
                     </div>
+                    <h1 class="display-4">$30</h1>
                     <a href="#" class="btn btn-primary">Add-to-Cart</a>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="../images/pants.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Pants</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <label for="quantityInput">Quantity</label>
-                    <form name="registrationForm">
-                        <input type="range" name="quantityInput" id="quantityInput" value="1" min="1" max="25" oninput="quantityOutput.value = quantityInput.value">
-                        <output name="quantityOutput" id="quantityOutput">1</output>
-                    </form>
-                    <div class="form-group">
-                        <label for="Select">Item Size</label>
-                        <select id="Select" class="form-control">
-                            <option>Small</option>
-                            <option>Medium</option>
-                            <option>Large</option>
-                            <option>X-Large</option>
-                            <option>XX-Large</option>
-                        </select>
-                    </div>
-                    <a href="#" class="btn btn-primary">Add-to-Cart</a>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 <footer>
