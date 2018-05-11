@@ -96,7 +96,7 @@
         </form>
     </div>
 </nav>
-<div class="content">
+<div id="content">
     <img src="../images/logo.png" id="logo">
 </div>
 <footer>

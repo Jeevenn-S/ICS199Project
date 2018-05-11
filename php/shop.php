@@ -92,7 +92,7 @@
         </form>
     </div>
 </nav>
-<div class="content">
+<div id="content">
     <div class="row" id="shopTools">
         <div class="btn-group" id="categoryButton">
             <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -103,6 +103,16 @@
                 <a class="dropdown-item" href="#">Pants</a>
                 <a class="dropdown-item" href="#">Socks</a>
             </div>
+        </div>
+        <div class="btn-group" id="viewCartButton">
+            <button type="button" class="btn btn-warning">
+                View Cart
+            </button>
+        </div>
+        <div class="btn-group" id="checkoutButton">
+            <button type="button" class="btn btn-success">
+                Checkout
+            </button>
         </div>
     </div>
     <div class="row">

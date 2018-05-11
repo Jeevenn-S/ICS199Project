@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fresh Threads - Home</title>
+    <title>Fresh Threads - Admin Panel</title>
     <meta charset="UTF-8">
     <meta name="description" content="Buy t-shirts and clothing at Fresh Threads">
     <meta name="keywords" content="T-Shirts, Clothing, Shop, Fresh Threads">
@@ -10,15 +10,15 @@
     <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="admin.php">Fresh Threads Admin Panel</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="admin.php">Fresh Threads Admin Panel</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -29,46 +29,66 @@
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#register">
                 Register
             </button>
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="registerTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                            <h5 class="modal-title" id="registerTitle">Register for an Account</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <form>
+                                <div class="form-group">
+                                    <label for="emailRegister" class="col-form-label">Email:</label>
+                                    <input type="text" class="form-control" id="emailRegister">
+                                </div>
+                                <div class="form-group">
+                                    <label for="passwordRegister" class="col-form-label">Password</label>
+
+                                    <input type="text" class="form-control" id="passwordRegister">
+                                </div>
+                            </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-primary">Register</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
+            <button id="signInButton" type="button" class="btn btn-info" data-toggle="modal" data-target="#signIn">
                 Sign-In
             </button>
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="signInTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                            <h5 class="modal-title" id="signInTitle">Sign-In to your Existing Account</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
-                            ...
+                            <form>
+                                <div class="form-group">
+                                    <label for="emailSignIn" class="col-form-label">Email:</label>
+                                    <input type="text" class="form-control" id="emailSignIn">
+                                </div>
+                                <div class="form-group">
+                                    <label for="passwordSignIn" class="col-form-label">Password</label>
+
+                                    <input type="text" class="form-control" id="passwordSignIn">
+                                </div>
+                            </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-primary">Sign-In</button>
                         </div>
                     </div>
                 </div>
@@ -76,6 +96,50 @@
         </form>
     </div>
 </nav>
+<div id="content">
+    <h1 class="display-4">Add Item to Shop</h1>
+    <br>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Item ID</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="ID">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Item Name</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Item Description</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Description">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="inputState">Item Size</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Small</option>
+                    <option selected>Medium</option>
+                    <option selected>Large</option>
+                    <option selected>X-Large</option>
+                    <option selected>XX-Large</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">Item Cost</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="$">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="customFile">Upload Picture</label>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Choose Picture</label>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Add to Shop</button>
+    </form>
+</div>
 
 <footer>
     <div class="row">
