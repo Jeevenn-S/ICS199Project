@@ -22,27 +22,24 @@ footer{
     background-color: #efefef;
     text-align: center;
 }
-#categoryButton{
-    float: left;
-    display: block;
+#logo{
+    width: auto;
+    height: 320px;
 }
-#viewCartButton{
-    float: right;
+#signInButton{
     margin-left: 10px;
-    margin-right: 10px;
-
 }
-.card {
-    float: none;
-    margin: 0 auto 10px;
+.form-inline .form-group{
+    display: inline;
 }
 #shopTools{
     margin-left: 50px;
     padding-bottom: 10px;
 }
+.card {
+    float: none;
+    margin: 0 auto 10px;
+}
 .form-inline .form-group{
     display: inline;
-}
-#signInButton{
-    margin-left: 10px;
 }
