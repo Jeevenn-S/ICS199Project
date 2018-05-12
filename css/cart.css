@@ -33,7 +33,6 @@ footer{
     display: inline;
 }
 #shopTools{
-    margin-left: 50px;
     padding-bottom: 10px;
 }
 .card {
@@ -42,4 +41,8 @@ footer{
 }
 .form-inline .form-group{
     display: inline;
+}
+#checkoutButton{
+    display: inline-block;
+    padding: 0.4rem;
 }
